@@ -26,7 +26,7 @@ $ curl -sf https://gobinaries.com/tj/robo | sh
 From source:
 
 ```
-$ go get github.com/tj/robo
+$ go get github.com/Unity-Billal-mesloub/robo
 ```
 
 ## Usage
@@ -230,7 +230,7 @@ hash:
   command: echo {{ .branch }} {{ .githash }}
 
 variables:
-  branch: master
+  branch: main
   githash: $(git rev-parse --short {{ .branch }})
 ````
 
